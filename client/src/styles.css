@@ -1,0 +1,373 @@
+@import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@1&family=Architects+Daughter&family=Concert+One&family=Do+Hyeon&family=Noto+Sans+HK:wght@500&family=Permanent+Marker&display=swap');
+
+
+#langField {
+    
+  }
+
+#searchField1 {
+    
+    height: 38px;
+    padding: 0px
+}
+
+#searchField2 {
+    
+    height: 38px;
+    padding: 0px
+}
+
+#wordSerrch {
+    height: 100%;
+    margin: 0px;
+    width: 100%;
+    text-align: center;
+    border-style: solid;
+}
+
+#searchButton {
+    height: 100%;
+    margin: 0px;
+    width: 100%;
+    border-color: rgba(78, 131, 209, 0.527);
+    background-color: rgba(78, 131, 209, 0.527)
+    
+}
+
+#searchButton:hover { 
+   background-color: rgba(59, 78, 117, 0.89)
+}
+
+
+.styleDropdown {
+    width: 100%
+}
+
+#audioButton {
+    width: 30px;
+    height: 30px;
+    border-style: none
+}
+
+#audioButton:hover { 
+  background-color: rgba(82, 124, 172, 0.445)
+}
+
+#exampleList {
+  list-style-type: circle;
+  color: rgb(138, 138, 138);
+  font-family: 'ABeeZee', sans-serif;
+  font-size: 15px
+}
+
+#synonymsList {
+  list-style-type: square;
+  font-family: 'Noto Sans HK', sans-serif;
+  color: rgb(90, 118, 143)
+}
+
+#dif {
+  font-family: 'Do Hyeon', sans-serif;
+  font-size: 18px
+}
+
+#syn {
+  font-family: 'Architects Daughter', cursive;
+  font-size: 15px
+}
+
+#partOfspeech {
+  font-family: 'Concert One', cursive;
+  font-size: 22px;
+  color: rgb(40, 76, 148)
+}
+
+#head {
+  display: inline-block;
+  font-family: 'Noto Sans HK', sans-serif;
+  font-size: 25px;
+  color: rgb(70, 81, 88)
+}
+
+.textarea_field1 {
+  background-color: rgba(247, 247, 247, 0.925);
+  border-radius: 15px
+}
+
+.textarea_field2 {
+  background-color: rgba(222, 231, 241, 0.925);
+  border-radius: 15px
+}
+
+
+.translator_field {
+  height: 280px;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 0 3px rgba(9,24,65,.3);
+  box-shadow: 5px 8px #bdbdbd75;
+  z-index: 0
+}
+
+
+.translator_field textarea {
+  height:80%;
+  width:80%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 15px;
+  align-self: center;
+  resize: none;
+  border-style: none;
+  font-size: 18px;
+  font-family: 'Do Hyeon', sans-serif
+}
+
+textarea:focus {
+  outline: none
+}
+
+main {
+  background-color: rgb(255, 255, 255);
+  height:auto;
+  width:100%
+}
+
+.translator {
+  margin: auto;
+  height: auto;
+  width: 80%;
+  display: flex;
+  position: relative;
+  border-style: none
+  
+}
+
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  opacity: 0.5;
+  font-size: 15px
+}
+::-moz-placeholder { /* Firefox 19+ */
+  opacity: 0.5;
+  font-size: 15px
+}
+:-ms-input-placeholder { /* IE 10+ */
+  opacity: 0.5;
+  font-size: 15px
+}
+:-moz-placeholder { /* Firefox 18- */
+  opacity: 0.5;
+  font-size: 15px
+}
+
+@media only screen and (min-width: 768px) {
+
+  #translate {
+  z-index: 100;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  padding: 0;
+  width: 35px;
+  height: 18px;
+  border-style: none;
+  background-color: transparent;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  transform-origin: center
+  }
+  
+  .logo {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: auto;
+  filter: opacity(50%)
+  }
+
+  #select1 {
+    top:3%;
+    left:5%
+  }
+  
+  #select2 {
+    top:3%;
+    right:5%
+  }
+
+  .body_title {
+    margin-top: 120px;
+    margin-left: 80px;
+    margin-bottom: 50px
+  }
+
+  .body_content {
+    margin-top: 50px;
+    margin-bottom: 150px
+  }
+
+  .body_footer {
+    margin-top: 450px;
+    position: absolute;
+    width: 100%;
+    bottom: 0
+  }
+  
+  #navagation {
+    position: fixed;
+    z-index: 200;
+    left:0;
+    right:0;
+    top:0
+  }
+
+
+}
+
+@media only screen and (max-width: 767px) {
+
+  #translate {
+  z-index: 100;
+  margin: 0;
+  position: absolute;
+  top: 47.25%;
+  left: 46.75%;
+  padding: 0;
+  width: 35px;
+  height: 35px;
+  border-style: none;
+  background-color: transparent;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  transform-origin: center;
+  transform: rotate(90deg)
+  }
+  
+  .logo {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: auto;
+  filter: opacity(50%)
+  }
+  
+  #select1 {
+    top:3%;
+    left:3%
+  }
+  
+  #select2 {
+    top:3%;
+    left:3%
+  }
+
+  .body_title {
+    margin-top: 120px;
+    margin-left: 20px;
+    margin-bottom: 50px
+  }
+
+  .body_content {
+    margin-top: 50px;
+    margin-bottom: 100px;
+  }
+
+  .body_footer {
+    position: absolute;
+    width: 100%;
+    bottom: 0
+  }
+
+  #navagation {
+    position: fixed;
+    z-index: 200;
+    left:0;
+    right:0;
+    top:0
+  }
+
+  
+
+}
+
+
+.logo:hover {
+  filter: opacity(70%)
+}
+
+.logo:active {
+  filter: opacity(100%)
+}
+
+#translate:focus {
+  outline: none
+}
+
+#select1,#select2 {
+  z-index: 99;
+  position: absolute;
+  border-style: none;
+  opacity: .6;
+  width: 162px
+}
+
+
+#select1:hover,#select2:hover {
+  opacity: 1;
+  color: rgb(34, 45, 197)
+}
+
+#select1:focus,#select2:focus {
+  outline: none;
+  color: rgb(19, 64, 104)
+}
+
+ 
+.main_container {
+  position: relative;
+  min-height: 100vh
+}
+
+footer {
+  background-color: rgb(241, 241, 241);
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+
+.body_part {
+  margin:0;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  min-height: 100vh;
+  
+}
+
+.body_container {
+    position: relative;
+    bottom: 0;
+    min-height: 100vh;
+    width: 100%;
+    margin:0;
+    /*problem: border vs no border*/
+    border-style: dotted;
+    border-color: transparent
+  }
+
+.display {
+  margin-top:50px;
+  margin-bottom:200px;
+  background-color: rgba(236, 236, 236, 0.377);
+  padding: 25px;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: transparent
+}
