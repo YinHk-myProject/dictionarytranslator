@@ -109,7 +109,7 @@ return(
   <fieldset>
    <form  action="/" method="post" onSubmit={handleSubmit}>
    <div className="container pt-5 pb-5">
-    <div className="row ">
+    <div className="row">
       <div className="col-md-2" id="langField">
        <Dropdownlist callbackFromParent = {callbackGetData} />
       </div>
